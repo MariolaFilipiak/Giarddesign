@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GiardDesign</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -18,16 +19,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="intro.css" />
-    <link rel="stylesheet" href="offers.css" />
-    <link rel="stylesheet" href="about.css" />
-    <title>GiardDesign</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/intro.css" />
+    <link rel="stylesheet" href="/css/offers.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <script defer src="/js/script.js"></script>
 </head>
 
 <body>
     <nav>
-        <nav class="navbar navbar-expand-lg bg-body-white ">
+        <nav class="navbar navbar-expand-lg bg-body-white p-3 ">
             <div class="container-fluid style-navbar">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="https://i.ibb.co/mtq02F2/giarddesign.png" alt="giarddesign">
@@ -168,7 +171,7 @@
                         <div class="col d-flex justify-content-center">
                             <div class="card border-0 offers-card">
                                 <div class="card-body  d-flex row justify-content-space-between offers-cardBody">
-                                    <img class="offers-images" src="" alt="icon" />
+                                    <img class="offers-images" src="/images/Icon3.svg" alt="icon" />
                                     <div class="offers-boxes">
                                         <p class="card-title offers-titleBox">Projekty</p>
                                         <p class="card-text offers-textBox"> Zaprojektujemy
@@ -191,7 +194,7 @@
                         <div class="col d-flex justify-content-center">
                             <div class="card border-0 offers-card">
                                 <div class="card-body d-flex row justify-content-space-between offers-cardBody">
-                                    <img class="offers-images" src="" alt="icon" />
+                                    <img class="offers-images" src="/images/Icon2.svg" alt="icon" />
                                     <div class="offers-boxes">
                                         <p class="card-title offers-titleBox">Wizualizacje</p>
                                         <p class="card-text offers-textBox">Przedstawimy Ci
@@ -214,7 +217,7 @@
                         <div class="col d-flex justify-content-center">
                             <div class="card border-0 offers-card">
                                 <div class="card-body d-flex row justify-content-space-between offers-cardBody">
-                                    <img class="offers-images" src="" alt="icon" />
+                                    <img class="offers-images" src="/images/Icon1.svg" alt="icon" />
                                     <div class="offers-boxes">
                                         <p class="card-title offers-titleBox">Realizacje</p>
                                         <p class="card-text offers-textBox">Zrealizujemy Twoje marzenie przy użyciu
@@ -272,8 +275,108 @@
                         </div>
                     </div>
             </section>
+            <section style="position: relative;" id="realizacje">
+                <div class="container-fluid gallery-container" style="background-color: #DCC1AB;">
+                  <div class="gallery ">
+                    <div class="gallery-wrapper">
+                      <div class="card bg-transparent border-0  ">
+                        <div class="card-body gallery-body   ">
+                          <p class="gallery-text">Realizacje</p>
+                          <p class="card-title gallery-title">
+                            Nasze <i>projekty</i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row gallery-img">
+                    <div class="col-lg-4 col-md-3 mb-4 mb-lg-0">
+                      <img
+                        src="https://images.pexels.com/photos/7061659/pexels-photo-7061659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100   mb-4" alt="image" />
+                      <img
+                        src="https://images.pexels.com/photos/4946909/pexels-photo-4946909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100   mb-4" alt="image" />
+                    </div>
             
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                      <img
+                        src="https://images.pexels.com/photos/4946907/pexels-photo-4946907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100   mb-4" alt="image" />
+            
+                      <img
+                        src="https://images.pexels.com/photos/4917176/pexels-photo-4917176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100  mb-4" alt="image" />
+                    </div>
+            
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                      <img
+                        src="https://images.pexels.com/photos/4946994/pexels-photo-4946994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100   mb-4" alt="image" />
+            
+                      <img
+                        src="https://images.pexels.com/photos/4751969/pexels-photo-4751969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100   mb-4" alt="image" />
+                    </div>
+                  </div>
+                  <button id="expandButton" style="position: absolute;">Rozwiń</button>
+                  <div class="gradient-overlay"></div>
+                  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <img id="modalImage" src="" class="w-100" alt="image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section>
         </main>
+        <footer id="kontakt">
+            <div class="footer-contact m-5 ">
+              <div class="footer-wrapper p-5  w-75">
+                <p class="card-title footer-text p-5 fs-2">
+                  Zostańmy w kontakcie! <br />Znajdziesz nas na <i>Instagramie.</i>
+                </p>
+                <div>
+                  <p class="footer-description fs-6">Śledź nasze<br /> najnowsze realizacje!</p>
+                  <a href="https://www.instagram.com/adrespect/" rel="nonreferrer noopener" target="_blank"
+                    class="btn border-1 rounded-pill footer-button">Instagram</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="footer-box p-5 d-flex justify-content-center ">
+              <div class="footer-content w-75 justify-content-space-between align-items: center fs-6">
+<img src="https://i.ibb.co/mvm2rv6/giarddesign-1.png" alt="giarddesign">
+                <p>Daj znać, co możemy dla Ciebie zrobić!</p>
+                <a href="mailto:giarddesign@kontakt.pl" class="btn border-1 rounded-pill footer-button-green w-100 p-3 ">Skontaktuj sie z nami</a>
+              </div>
+            </div>
+            <div class="footer-box p-5 d-flex justify-content-center">
+              <div class=" footer-nextContent w-75 justify-content-space-between ">
+                <div class=" footer-links">
+                  <p>Kontakt</p>
+                  <p>Instagram</p>
+                  <p>Facebook</p>
+                  <p>LinkedIn</p>
+                </div>
+                <div class="footer-links">
+                  <p>000-000-000</p>
+                </div>
+                <div class="footer-links">
+                  <p>giarddesign@kontakt.pl</p>
+                </div>
+              </div>
+        </div>
+        <div class="footer-box p-5 d-flex justify-content-center">
+          <div class="footer-contentLast w-75 justify-content-space-between">
+            <p>Prawa zastrzeżone © 2022</p>
+            <p>made by</p>
+<img src="https://i.ibb.co/M66Nmkx/logo-full-light-1.png" alt="logo">         </div>
+        
+        </div>
+          </footer>
 </body>
 
 </html>
