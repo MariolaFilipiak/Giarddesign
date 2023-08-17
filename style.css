@@ -6,3 +6,28 @@ html {
 ::before {
     box-sizing: inherit;
 }
+.body{
+    word-wrap: break-word;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#searchForm {
+    display: none;
+}
+
+#searchForm.show {
+    display: block;
+}
+
+.slider {
+    margin: 0;
+    padding: 0;
+}
+
+.section_box {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
