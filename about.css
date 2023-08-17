@@ -1,0 +1,39 @@
+.about {
+    background-color: #1B5B31;
+    width: 100%;
+    padding: 0;
+}
+
+.about-card {
+    width: 100%;
+    max-width: 599px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.about-intro {
+    color: #F5F0EC;
+    text-align: left;
+}
+
+.about-title {
+    text-align: left;
+    line-height: 55.2px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -3%;
+    font-weight: 500;
+    color: #F5F0EC;
+}
+
+.about-button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #F5F0EC;
+    border-color: #F5F0EC;
+    width: 197px;
+}
