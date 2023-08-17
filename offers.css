@@ -1,0 +1,108 @@
+.offers {
+    background-color: #F5F0EC;
+}
+
+.offers-wrapper {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+.offers-card {
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.offers-text {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Inter', sans-serif;
+    color: #1B5B31;
+    margin-bottom: 5px;
+
+}
+
+.offers-title {
+    text-align: left;
+    line-height: 55px;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.offers-text {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.offers-body {
+    gap: 16px;
+    margin-top: 60px;
+}
+
+.offers-box {
+    display: flex;
+    background-color: #F5F0EC;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.offers-row {
+    margin: 0 auto;
+    gap: 64px;
+}
+
+.offers-card {
+ 
+    border-radius: 28px;
+}
+
+.offers-cardBody {
+    padding: 40px;
+}
+
+.offers-images {
+    width: 40px;
+    height: 40px;
+}
+
+.offers-boxes {
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.offers-titleBox {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32.2px;
+    letter-spacing: -5%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.offers-textBox {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+
+.offers-buttonBox {
+    gap: 10px;
+    padding: 0px, 0px, 4px, 0px;
+    margin-bottom: 5px;
+}
+
+.offers-button {
+    text-decoration: none;
+    border-bottom: 1px solid #1B5B31;
+    color: #1B5B31;
+    ;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
