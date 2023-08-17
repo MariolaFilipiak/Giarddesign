@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const galleryImages = document.querySelectorAll(".gallery-img img");
   const modalImage = document.getElementById("modalImage");
   const modal = new bootstrap.Modal(document.getElementById("imageModal"));
+  
 
   const showImageInModal = (image) => {
     modalImage.src = image.src;
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       newCol.className = "col-lg-4 mb-4 mb-lg-0";
       const newImage = document.createElement("img");
       newImage.src = imageSrc;
-      newImage.className = "w-100 mb-4";
+      newImage.className = "w-100 img-fluid mb-4 mx-auto";
       newImage.addEventListener("click", () => showImageInModal(newImage));
       newCol.appendChild(newImage);
       galleryRow.appendChild(newCol);
