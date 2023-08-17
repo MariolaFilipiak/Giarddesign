@@ -11,6 +11,8 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
+    word-break: break-word;
+
 }
 
 #searchForm {
@@ -31,3 +33,7 @@ html {
     margin: 0 auto;
 }
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

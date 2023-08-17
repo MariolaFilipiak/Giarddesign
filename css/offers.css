@@ -30,16 +30,19 @@
 
 .offers-text {
     line-height: 24px;
-    font-size: 16px;
     font-weight: 400px;
     text-align: left;
     font-family: 'Inter', sans-serif;
-
+    color: black;
+}
+.offers-intro{
+    color: #1B5B31;
 }
 
 .offers-body {
     gap: 16px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .offers-box {
@@ -52,12 +55,21 @@
 .offers-row {
     margin: 0 auto;
     gap: 64px;
+    background-color: #F5F0EC;
 }
 
 .offers-card {
     width: 370px;
     height: 370px;
     border-radius: 28px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+.offers-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .offers-cardBody {

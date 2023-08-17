@@ -2,23 +2,22 @@
     line-height: 48px;
     letter-spacing: -2px;
     color: #F5F0EC;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 .footer-contact {
-    padding: 60px, 0px, 60px, 0px;
+padding-top: 60px;
+padding-bottom:  60px;
 }
 
 .footer-wrapper {
     margin: 0 auto;
     background-color: #1B5B31;
     gap: 10px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+  
+
 
 }
 

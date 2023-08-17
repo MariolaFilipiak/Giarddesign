@@ -20,7 +20,7 @@
 .about-title {
     text-align: left;
     line-height: 55.2px;
-    font-size: 48px;
+
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -3%;
     font-weight: 500;
@@ -36,4 +36,11 @@
     color: #F5F0EC;
     border-color: #F5F0EC;
     width: 197px;
+}
+
+.about-description {
+    color: #F5F0EC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
 }

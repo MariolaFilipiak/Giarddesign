@@ -4,9 +4,7 @@
     padding-bottom: 90px;
 }
 
-.gallery-wrapper {
-    margin: 0 auto;
-}
+
 
 .gallery-text {
     font-size: 12px;
@@ -28,12 +26,6 @@
 
 .gallery-body {
     gap: 16px;
-    padding: 0px 0px 0px 160px;
-}
-
-.gallery-container {
-    padding: 0;
-    width: 100%;
 }
 
 .gradient-overlay {
