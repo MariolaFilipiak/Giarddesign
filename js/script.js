@@ -12,12 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   expandButton.addEventListener("click", () => {
+    expandButton.style.transform = "translateY(100%)";
     gradientOverlay.style.display = "none";
     galleryImages.forEach((image) => {
       image.style.display = "block";
       image.addEventListener("click", () => showImageInModal(image));
     });
-    expandButton.style.display = "none";
+  
+  
 
     const newImages = [
       "https://images.pexels.com/photos/11678318/pexels-photo-11678318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
