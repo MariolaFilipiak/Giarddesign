@@ -1,12 +1,14 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 ::after,
 ::before {
     box-sizing: inherit;
 }
-.body{
+
+.body {
     word-wrap: break-word;
     width: 100%;
     margin: 0;
@@ -33,7 +35,14 @@ html {
     margin: 0 auto;
 }
 
-.row{
+.row {
     margin-left: 0;
     margin-right: 0;
 }
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+
+  

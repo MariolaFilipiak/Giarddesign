@@ -7,7 +7,6 @@
 
 
 .gallery-text {
-    font-size: 12px;
     font-weight: 400px;
     font-family: 'Inter', sans-serif;
     color: #1B5B31;
@@ -18,7 +17,6 @@
 .gallery-title {
     text-align: left;
     line-height: 55px;
-    font-size: 48px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
@@ -35,4 +33,17 @@
     width: 100%;
     height: 60%;
     background: linear-gradient(to bottom, rgba(220, 193, 171, 0) 0%, rgba(220, 193, 171, 1) 100%);
+}
+
+.gallery-image {
+    padding: 0;
+    background-color: #DCC1AB;
+
+}
+
+.gallery-button {
+    border: 1px solid black;
+    z-index: 99999;
+    position: absolute;
+    bottom: 100px;
 }
