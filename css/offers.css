@@ -85,7 +85,6 @@
     line-height: 32.2px;
     letter-spacing: -5%;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .offers-textBox {
@@ -94,7 +93,6 @@
     letter-spacing: -5%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-
 }
 
 .offers-buttonBox {
@@ -107,7 +105,6 @@
     text-decoration: none;
     border-bottom: 1px solid #1B5B31;
     color: #1B5B31;
-    ;
     font-size: 16px;
     line-height: 24px;
     font-family: 'Inter', sans-serif;

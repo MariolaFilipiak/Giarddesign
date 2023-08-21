@@ -4,8 +4,7 @@
     color: #F5F0EC;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-padding: 50px;
-
+    padding: 50px;
 }
 
 .footer-wrapper {
@@ -23,13 +22,11 @@ padding: 50px;
 .footer-button:hover {
     color: #F5F0EC;
     border: 1px solid #F5F0EC;
-
 }
 
 .footer-description {
     color: #F5F0EC;
     font-family: 'Inter', sans-serif;
-
 }
 
 .footer-box {
@@ -73,7 +70,6 @@ padding: 50px;
 .footer-button-green:hover {
     color: #F5F0EC;
     background-color: #257b43;
-
 }
 
 @media (max-width: 768px) {
@@ -100,9 +96,9 @@ padding: 50px;
     }
 
     .footer-text {
-     text-align: center;
-     margin-bottom: 20px;
-     padding: 0;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
     }
 
     .footer-wrapper {

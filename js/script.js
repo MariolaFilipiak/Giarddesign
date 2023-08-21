@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const galleryImages = document.querySelectorAll(".gallery-img img");
   const modalImage = document.getElementById("modalImage");
   const modal = new bootstrap.Modal(document.getElementById("imageModal"));
-  
 
   const showImageInModal = (image) => {
     modalImage.src = image.src;
@@ -18,8 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
       image.style.display = "block";
       image.addEventListener("click", () => showImageInModal(image));
     });
-  
-  
 
     const newImages = [
       "https://images.pexels.com/photos/11678318/pexels-photo-11678318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
