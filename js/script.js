@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryRow = document.querySelector(".gallery-img.row");
     newImages.forEach((imageSrc) => {
       const newCol = document.createElement("div");
-      newCol.className = "col-lg-4 mb-4 mb-lg-0";
+      newCol.className = "col-lg-4 col-md-6 col-12 p-0";
       const newImage = document.createElement("img");
       newImage.src = imageSrc;
-      newImage.className = "w-100 img-fluid mb-4 mx-auto";
+      newImage.className = "w-100 img-fluid  mx-auto gallery-image";
       newImage.addEventListener("click", () => showImageInModal(newImage));
       newCol.appendChild(newImage);
       galleryRow.appendChild(newCol);
