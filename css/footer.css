@@ -74,6 +74,13 @@
     color: #F5F0EC;
     background-color: #257b43;
 }
+@media (max-width: 576px) {
+
+    .footer{
+        padding: 20px;
+    }
+
+}
 
 @media (max-width: 768px) {
     .footer-row {
@@ -108,8 +115,5 @@
         width: 100%;
         padding: 0;
     }
-    .footer{
-        padding: 10px;
-    }
-
+   
 }
