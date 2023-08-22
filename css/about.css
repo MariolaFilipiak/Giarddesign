@@ -1,15 +1,12 @@
 .about {
-    background-color: #1B5B31;
-    width: 100%;
+    background-color: #1B5B31; 
     padding: 0;
 }
 
 .about-card {
     width: 100%;
     max-width: 599px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
+
 }
 
 .about-intro {
