@@ -124,16 +124,15 @@
     .intro-secondButton {
         justify-content: center;
     }
+    .intro-text {
+        text-align: center;
+    }
 }
 
 
 @media (max-width: 992px) {
     .intro-images {
         height: 70vw;
-    }
-
-    .intro-text {
-        text-align: center;
     }
 
     .intro-box {
