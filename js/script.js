@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     container: ".gallery-images",
     mobileFirst: true,
     columns: 1,
-    breakAt: { 576: 2, 768: 3, 992: 3 },
+    breakAt: { 576: 2, 992: 3, 1200:3  },
     margin: { x: 40, y: 40 },
   });
 
