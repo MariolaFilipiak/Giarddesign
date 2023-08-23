@@ -1,7 +1,7 @@
 ﻿# Giarddesign
 
 ## 
-The project was created in the recruitment process for the adRespect.p agency
+The project was created in the recruitment process for the adRespect.p agency.
 
 ## Demo
 
